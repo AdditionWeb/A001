@@ -1,0 +1,229 @@
+/*
+Theme Name: A001
+Template: ample
+GitHub Theme URI: AdditionWeb/a001
+Author: AdditionWeb
+Description: A beautiful theme for a wonderful church!
+Version: 1.0.0
+
+*/
+
+/* Front Page Tweaks/CSS */
+
+#site-title a {
+  font-size: 25px;
+}
+
+.slider-button {
+  color: #efefef;
+  font-weight: 900;
+  border: none;
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.icon-section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.icon-column {
+  text-align: center;
+}
+
+.icon-column span.icons {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.icon-column span i {
+  font-size: 72px;
+  line-height: 102px;
+  margin: 0;
+  color: #80abc8;
+  }
+
+.icon-column span i:hover {
+  color: #666666;
+}
+
+.icon-section a {
+  font-size: 20px;
+  color: #666666;
+  padding: 20px 0;
+}
+
+.icon-section a:hover {
+  color: #80abc8;
+}
+
+.one-third {
+  float: left;
+  margin: 0 3.63636363% 0 0;
+  width: 30.90909090%;
+}
+
+.one-fourth {
+  float: left;
+  width: 22.95454545%;
+  margin: 0 2.72727272% 0 0;
+}
+
+.last {
+  margin: 0;
+}
+
+.call-to-action-content-wrapper {
+  background-color: #4e4e4e;
+  padding: 10px 0;
+}
+
+/* The Events Calendar Page (Events Page) Tweaks */
+
+.tribe-events-notices {
+  background: none;
+  border: 0;
+  color: inherit;
+}
+
+.tribe-events-calendar thead {
+  background: #666;
+  border: 2px solid #666;
+  border-left: none;
+}
+
+#tribe-events-monday {
+  background: rgba(255, 0, 0, 0);
+}
+
+.single-page {
+  margin-bottom: 30px;
+}
+
+/* The Events Calendar Widget Tweaks */
+
+.tribe-list-widget {
+  margin-left: 13px;
+}
+
+.tribe-clearfix::before {
+  content: none;
+}
+
+.type-tribe_events {
+  border-bottom: none !important;
+  padding: 0;
+}
+
+.tribe-events-widget-link {
+  padding-top: 10px;
+}
+
+/* Footer Tweaks */
+
+footer a {
+  font-size: 14px !important;
+}
+
+footer a,
+footer p {
+  line-height: 22px !important;
+}
+
+footer .widgettitle {
+  color: #efefef;
+}
+
+/* Smaller Screen Tweaks */
+
+/* Photo Gallery Tweaks (Photos Page) 395px and below */
+
+@media (max-width: 395px) {
+  .bwg_standart_thumbnails_0 {
+    text-align: left !important;
+  }
+
+  #bwg_container1_0 #bwg_container2_0 .bwg_standart_thumb_spun1_0 {
+    width: 175px !important;
+  }
+
+  div[id^="bwg_container"] div[id^="bwg_container"] .bwg_img_clear {
+    max-width: 350px !important;
+  }
+
+  .bwg_standart_thumb_spun1_0 {
+    width: auto;
+  }
+
+}
+
+@media (max-width: 479px) {
+
+  /* Slider Text on Front Page */
+
+  .slider-button {
+    font-size: 13px;
+  }
+
+  /* The Events Calendar Page (Events Page) */
+  #tribe-events-content table.tribe-events-calendar {
+    font-size: 9px !important;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+   .one-third, .one-fourth {
+      float: none;
+      width: 100%;
+      margin: 0;
+   }
+
+   .call-to-action-content-wrapper h3 {
+     font-size: 20px !important;
+   }
+
+}
+
+@media screen and (max-width: 991px) {
+  .call-to-action-button {
+    display: block;
+  }
+
+}
+
+@media (min-width: 480px) {
+  .big-slider .entry-title {
+    font-size: 50px;
+  }
+
+  .slider-button {
+    font-size: 19px;
+  }
+
+}
+
+@media (min-width: 480px) {
+  #site-title a {
+    font-size: 34px;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1033px) {
+  #header-text {
+    float: none;
+  }
+
+  #header-right-section {
+    float:none;
+  }
+
+  .main-navigation {
+    float: none;
+    clear: both;
+  }
+
+}
